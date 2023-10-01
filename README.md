@@ -153,7 +153,7 @@ After completing step 1 and locally installing MongoDB, you should be able to ac
 
 - MongoDB Atlas
 	- If you are using MongoDB Atlas instead of a local db, set the MONGODB_URI to your db URI (including your db user/password).
-
+Example change to demostrate a pr
 - Email address
 	- Set SITE_CONTACT_EMAIL as your incoming email address for messages sent to you thru the contact form.
 	- Set TRANSACTION_EMAIL as the "From" address for emails sent to users thru the lost password or email verification emails to users.  You may set this to the same address as SITE_CONTACT_EMAIL.
