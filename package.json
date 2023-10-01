@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "postinstall": "patch-package && npm run scss",
-    "start": "npm run scss && node app.js",
+    "start": "npm run scss && nodemon app.js",
     "test": "nyc mocha --timeout=60000 --exit",
     "lint": "eslint \"**/*.js\"",
     "prepare": "husky install",
@@ -55,6 +55,7 @@
     "lusca": "^1.7.0",
     "mailchecker": "^5.0.9",
     "moment": "^2.29.4",
+    "mongodb": "^6.1.0",
     "mongoose": "^7.4.1",
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
@@ -88,6 +89,7 @@
     "lint-staged": "^13.2.3",
     "mocha": "^10.2.0",
     "mongodb-memory-server": "^8.13.0",
+    "nodemon": "^3.0.1",
     "nyc": "^15.1.0",
     "sinon": "^15.2.0",
     "supertest": "^6.3.3"
